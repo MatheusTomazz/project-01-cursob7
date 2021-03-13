@@ -1,0 +1,53 @@
+/** Reset browser */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: #d8d5d8;
+    
+    
+}
+
+/**Container style */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main img{
+    width: 300px;
+    margin:2rem;
+}
+
+/**Style text */
+
+h1{
+    font-size: 5rem;
+    margin-top: 5rem;
+    
+}
+
+h2{
+    font-size: 2rem;
+    margin: 12px;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:5px
+}
+
